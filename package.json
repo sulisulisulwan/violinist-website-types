@@ -1,6 +1,6 @@
 {
-  "name": "@types/suli-violin-website",
-  "version": "1.0.0",
+  "name": "suli-violin-website-types",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {

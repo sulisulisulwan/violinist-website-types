@@ -7,7 +7,8 @@ import {
 import {
   BiographyItemAPI,
   BiographyItemMYSQL,
-  BiographyAPIData
+  BiographyAPIData,
+  LongShortFormBioMYSQL
 } from './biography'
 
 import {
@@ -59,6 +60,7 @@ export {
   EventListingAPI,
   EventListingMYSQL,
   EventLocationAPI,
+  LongShortFormBioMYSQL,
   AudioTrackDataAPI,
   AudioTrackDataMYSQL,
   MediaData,

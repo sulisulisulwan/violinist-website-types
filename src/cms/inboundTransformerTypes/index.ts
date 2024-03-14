@@ -2,6 +2,7 @@ import { EventGroupArtistAPI, EventGroupProgramAPI, EventLocationAPI } from "../
 import { parsedDateAndTime } from "../miscellaneous"
 
 type CalendarInboundTransformedData = {
+  dataType: 'calendar'
   results: {
     upcoming: InboundEventGroup[]
     past: InboundEventGroup[]

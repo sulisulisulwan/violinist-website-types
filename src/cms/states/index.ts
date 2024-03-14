@@ -101,7 +101,7 @@ interface initStateIF {
   displayDocId: null | number
   editFieldsEnabled: boolean
   editDocId: null | number
-  fetchedData: fetchedDataForCMS
+  fetchedData: any
   isDeletePhase: boolean
   modal: {
     isOpen: boolean
@@ -109,14 +109,6 @@ interface initStateIF {
   }
   currWorkflow: string
 }
-
-type fetchedDataForCMS = {
-  bio: any,
-  calendar: any,
-  media: any,
-  blog: any,
-}
-  
 type setStateSSA = React.Dispatch<React.SetStateAction<initStateIF>>
     
 interface tabListItemIF {
@@ -130,7 +122,6 @@ export {
   blogFormFieldStateIF,
   calendarFormFieldStateIF,
   eventListingFormStateIF,
-  fetchedDataForCMS,
   formFieldStates,
   initialFormStates,
   initStateIF,

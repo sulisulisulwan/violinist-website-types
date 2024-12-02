@@ -9,13 +9,13 @@ interface audioFormFieldStateIF {
 }
 
 interface bioFormFieldStateIF {
-  textareaText: string
+  textEditorText: string
   titleText: string
 }
 
 interface blogFormFieldStateIF {
   titleText: string
-  textareaText: string
+  textEditorText: string
   dateCreated: string
   dateLastModified: string
 }

@@ -53,6 +53,13 @@ interface eventListingFormStateIF {
   eventGroupingId: number | null
 }
 
+
+interface programsFormFieldStateIF {
+  textEditorText: string
+  titleText: string
+}
+
+
 interface photosFormFieldStateIF {
   uploadPath: string
   photoCred: string
@@ -83,7 +90,8 @@ type formFieldStates =
   calendarFormFieldStateIF | 
   photosFormFieldStateIF | 
   playlistFormFieldStateIF |
-  videosFormFieldStateIF 
+  videosFormFieldStateIF |
+  programsFormFieldStateIF
 
 
 type initialFormStates = 
@@ -93,7 +101,8 @@ type initialFormStates =
   calendarFormFieldStateIF |
   photosFormFieldStateIF |
   playlistFormFieldStateIF |
-  videosFormFieldStateIF
+  videosFormFieldStateIF |
+  programsFormFieldStateIF
 
 interface initStateIF {
   currentTab: string
@@ -127,6 +136,7 @@ export {
   initStateIF,
   photosFormFieldStateIF,
   playlistFormFieldStateIF,
+  programsFormFieldStateIF,
   setStateSSA,
   tabListItemIF,
   videosFormFieldStateIF,

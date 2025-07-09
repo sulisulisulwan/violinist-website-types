@@ -50,7 +50,7 @@ export type PhotoDataMYSQL = {
 export type VideoDataAPI = {
   id: number
   youtubeCode: string
-  thumbnail: string
+  thumbnail_id: number
   caption: string
 }
 

@@ -57,7 +57,7 @@ export type VideoDataAPI = {
 export type VideoDataMYSQL = {
   id: number
   youtubeCode: string
-  thumbnail: string
+  thumbnail_id: number
   caption: string
 }
 

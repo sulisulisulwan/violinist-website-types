@@ -62,7 +62,6 @@ interface programsFormFieldStateIF {
 
 interface photosFormFieldStateIF {
   uploadPath: string
-  photoCred: string
 }
 interface playlistFormFieldStateIF {
   name: string

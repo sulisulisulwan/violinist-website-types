@@ -13,7 +13,6 @@ type OutboundTransformedBio = BiographyItemAPI
 type OutboundTransformedBlog = BlogItemAPI
 type OutboundTransformedPhotos = FormData | { 
   id: number
-  photoCred: string
 }
 type OutboundTransformerPlaylists = PlaylistItemAPI
 type OutboundTransformedVideos = FormData | OutboundTransformedVideoNotFormData

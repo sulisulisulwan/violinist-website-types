@@ -35,7 +35,6 @@ export type PhotoDataAPI = {
   croppedSrc: string,
   originalFileName: string,
   originalCroppedFileName: string,
-  photoCred: string
 }
 
 export type PhotoDataMYSQL = {
@@ -44,7 +43,6 @@ export type PhotoDataMYSQL = {
   croppedSrc: string,
   originalFileName: string,
   originalCroppedFileName: string,
-  photoCred: string
 }
 
 export type VideoDataAPI = {

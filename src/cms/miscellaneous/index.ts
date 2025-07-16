@@ -56,6 +56,7 @@ type formTypes =
   'calendar' | 
   'mediaTabPhotos' | 
   'mediaTabVideos' | 
+  'photos' |
   'playlists' | 
   'programs'
 

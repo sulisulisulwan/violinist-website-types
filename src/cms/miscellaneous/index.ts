@@ -50,7 +50,14 @@ interface CMSEventGroupDateRange {
   }
 }
 
-type formTypes = 'audio' | 'bio' | 'blog' | 'calendar' | 'photos' | 'playlists' | 'videos' | 'programs'
+type formTypes = 
+  'audio' | 
+  'bio' | 'blog' | 
+  'calendar' | 
+  'mediaTabPhotos' | 
+  'mediaTabVideos' | 
+  'playlists' | 
+  'programs'
 
 export {
   CMSEventGroupDateRange,

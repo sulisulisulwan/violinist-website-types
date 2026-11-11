@@ -41,8 +41,11 @@ export type PhotoDataMYSQL = {
   id: number,
   src: string,
   croppedSrc: string,
+  photoCred: string
   originalFileName: string,
   originalCroppedFileName: string,
+  type: string
+  alt: string
 }
 
 export type VideoDataAPI = {
